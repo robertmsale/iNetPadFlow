@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC30CE52B33682200799017 /* iNetPadFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CE42B33682200799017 /* iNetPadFlowApp.swift */; };
+		EEC30CE72B33682200799017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CE62B33682200799017 /* ContentView.swift */; };
+		EEC30CE92B33682300799017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC30CE82B33682300799017 /* Assets.xcassets */; };
+		EEC30CEC2B33682300799017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC30CEB2B33682300799017 /* Preview Assets.xcassets */; };
+		EEC30CF62B33682300799017 /* iNetPadFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CF52B33682300799017 /* iNetPadFlowTests.swift */; };
+		EEC30D002B33682300799017 /* iNetPadFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */; };
+		EEC30D022B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEC30CF22B33682300799017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC30CD92B33682200799017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC30CE02B33682200799017;
+			remoteInfo = iNetPadFlow;
+		};
+		EEC30CFC2B33682300799017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC30CD92B33682200799017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC30CE02B33682200799017;
+			remoteInfo = iNetPadFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEC30CE12B33682200799017 /* iNetPadFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNetPadFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC30CE42B33682200799017 /* iNetPadFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowApp.swift; sourceTree = "<group>"; };
+		EEC30CE62B33682200799017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEC30CE82B33682300799017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC30CEB2B33682300799017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEC30CF12B33682300799017 /* iNetPadFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNetPadFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC30CF52B33682300799017 /* iNetPadFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowTests.swift; sourceTree = "<group>"; };
+		EEC30CFB2B33682300799017 /* iNetPadFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNetPadFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowUITests.swift; sourceTree = "<group>"; };
+		EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC30CDE2B33682200799017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC30CEE2B33682300799017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC30CF82B33682300799017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC30CD82B33682200799017 = {
+			isa = PBXGroup;
+			children = (
+				EEC30CE32B33682200799017 /* iNetPadFlow */,
+				EEC30CF42B33682300799017 /* iNetPadFlowTests */,
+				EEC30CFE2B33682300799017 /* iNetPadFlowUITests */,
+				EEC30CE22B33682200799017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC30CE22B33682200799017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC30CE12B33682200799017 /* iNetPadFlow.app */,
+				EEC30CF12B33682300799017 /* iNetPadFlowTests.xctest */,
+				EEC30CFB2B33682300799017 /* iNetPadFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC30CE32B33682200799017 /* iNetPadFlow */ = {
+			isa = PBXGroup;
+			children = (
+				EEC30CE42B33682200799017 /* iNetPadFlowApp.swift */,
+				EEC30CE62B33682200799017 /* ContentView.swift */,
+				EEC30CE82B33682300799017 /* Assets.xcassets */,
+				EEC30CEA2B33682300799017 /* Preview Content */,
+			);
+			path = iNetPadFlow;
+			sourceTree = "<group>";
+		};
+		EEC30CEA2B33682300799017 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEC30CEB2B33682300799017 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEC30CF42B33682300799017 /* iNetPadFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEC30CF52B33682300799017 /* iNetPadFlowTests.swift */,
+			);
+			path = iNetPadFlowTests;
+			sourceTree = "<group>";
+		};
+		EEC30CFE2B33682300799017 /* iNetPadFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */,
+				EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */,
+			);
+			path = iNetPadFlowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC30CE02B33682200799017 /* iNetPadFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC30D052B33682300799017 /* Build configuration list for PBXNativeTarget "iNetPadFlow" */;
+			buildPhases = (
+				EEC30CDD2B33682200799017 /* Sources */,
+				EEC30CDE2B33682200799017 /* Frameworks */,
+				EEC30CDF2B33682200799017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNetPadFlow;
+			productName = iNetPadFlow;
+			productReference = EEC30CE12B33682200799017 /* iNetPadFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEC30CF02B33682300799017 /* iNetPadFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC30D082B33682300799017 /* Build configuration list for PBXNativeTarget "iNetPadFlowTests" */;
+			buildPhases = (
+				EEC30CED2B33682300799017 /* Sources */,
+				EEC30CEE2B33682300799017 /* Frameworks */,
+				EEC30CEF2B33682300799017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC30CF32B33682300799017 /* PBXTargetDependency */,
+			);
+			name = iNetPadFlowTests;
+			productName = iNetPadFlowTests;
+			productReference = EEC30CF12B33682300799017 /* iNetPadFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEC30CFA2B33682300799017 /* iNetPadFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC30D0B2B33682300799017 /* Build configuration list for PBXNativeTarget "iNetPadFlowUITests" */;
+			buildPhases = (
+				EEC30CF72B33682300799017 /* Sources */,
+				EEC30CF82B33682300799017 /* Frameworks */,
+				EEC30CF92B33682300799017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC30CFD2B33682300799017 /* PBXTargetDependency */,
+			);
+			name = iNetPadFlowUITests;
+			productName = iNetPadFlowUITests;
+			productReference = EEC30CFB2B33682300799017 /* iNetPadFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC30CD92B33682200799017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EEC30CE02B33682200799017 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EEC30CF02B33682300799017 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EEC30CE02B33682200799017;
+					};
+					EEC30CFA2B33682300799017 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EEC30CE02B33682200799017;
+					};
+				};
+			};
+			buildConfigurationList = EEC30CDC2B33682200799017 /* Build configuration list for PBXProject "iNetPadFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC30CD82B33682200799017;
+			productRefGroup = EEC30CE22B33682200799017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC30CE02B33682200799017 /* iNetPadFlow */,
+				EEC30CF02B33682300799017 /* iNetPadFlowTests */,
+				EEC30CFA2B33682300799017 /* iNetPadFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC30CDF2B33682200799017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC30CEC2B33682300799017 /* Preview Assets.xcassets in Resources */,
+				EEC30CE92B33682300799017 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC30CEF2B33682300799017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC30CF92B33682300799017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC30CDD2B33682200799017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC30CE72B33682200799017 /* ContentView.swift in Sources */,
+				EEC30CE52B33682200799017 /* iNetPadFlowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC30CED2B33682300799017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC30CF62B33682300799017 /* iNetPadFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC30CF72B33682300799017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC30D022B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift in Sources */,
+				EEC30D002B33682300799017 /* iNetPadFlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEC30CF32B33682300799017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC30CE02B33682200799017 /* iNetPadFlow */;
+			targetProxy = EEC30CF22B33682300799017 /* PBXContainerItemProxy */;
+		};
+		EEC30CFD2B33682300799017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC30CE02B33682200799017 /* iNetPadFlow */;
+			targetProxy = EEC30CFC2B33682300799017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEC30D032B33682300799017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEC30D042B33682300799017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC30D062B33682300799017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iNetPadFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = J737B85W5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1guy.iNetPadFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEC30D072B33682300799017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iNetPadFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = J737B85W5Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1guy.iNetPadFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEC30D092B33682300799017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J737B85W5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1guy.iNetPadFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNetPadFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iNetPadFlow";
+			};
+			name = Debug;
+		};
+		EEC30D0A2B33682300799017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J737B85W5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1guy.iNetPadFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNetPadFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iNetPadFlow";
+			};
+			name = Release;
+		};
+		EEC30D0C2B33682300799017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J737B85W5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1guy.iNetPadFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iNetPadFlow;
+			};
+			name = Debug;
+		};
+		EEC30D0D2B33682300799017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J737B85W5Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.just1guy.iNetPadFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iNetPadFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC30CDC2B33682200799017 /* Build configuration list for PBXProject "iNetPadFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC30D032B33682300799017 /* Debug */,
+				EEC30D042B33682300799017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC30D052B33682300799017 /* Build configuration list for PBXNativeTarget "iNetPadFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC30D062B33682300799017 /* Debug */,
+				EEC30D072B33682300799017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC30D082B33682300799017 /* Build configuration list for PBXNativeTarget "iNetPadFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC30D092B33682300799017 /* Debug */,
+				EEC30D0A2B33682300799017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC30D0B2B33682300799017 /* Build configuration list for PBXNativeTarget "iNetPadFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC30D0C2B33682300799017 /* Debug */,
+				EEC30D0D2B33682300799017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC30CD92B33682200799017 /* Project object */;
+}
