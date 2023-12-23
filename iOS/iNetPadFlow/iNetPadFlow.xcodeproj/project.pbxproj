@@ -14,6 +14,7 @@
 		EEC30CF62B33682300799017 /* iNetPadFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CF52B33682300799017 /* iNetPadFlowTests.swift */; };
 		EEC30D002B33682300799017 /* iNetPadFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */; };
 		EEC30D022B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */; };
+		EEC30D0F2B366E3C00799017 /* GameControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30D0E2B366E3C00799017 /* GameControllerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EEC30CFB2B33682300799017 /* iNetPadFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNetPadFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowUITests.swift; sourceTree = "<group>"; };
 		EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEC30D0E2B366E3C00799017 /* GameControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				EEC30CE62B33682200799017 /* ContentView.swift */,
 				EEC30CE82B33682300799017 /* Assets.xcassets */,
 				EEC30CEA2B33682300799017 /* Preview Content */,
+				EEC30D0E2B366E3C00799017 /* GameControllerManager.swift */,
 			);
 			path = iNetPadFlow;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC30CE72B33682200799017 /* ContentView.swift in Sources */,
+				EEC30D0F2B366E3C00799017 /* GameControllerManager.swift in Sources */,
 				EEC30CE52B33682200799017 /* iNetPadFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
