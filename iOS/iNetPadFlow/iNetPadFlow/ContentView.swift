@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var gameControllerManager = GameControllerManager()
+    @ObservedObject var networkBrowser = NetworkBrowser()
     
     var body: some View {
         NavigationStack {
@@ -21,6 +22,12 @@ struct ContentView: View {
                 }
                 .navigationTitle("iNetPadFlow")
             }
+        }
+        .onAppear {
+            networkBrowser.startBrowsing()
+        }
+        .onDisappear {
+            networkBrowser.stopBrowsing()
         }
     }
 }

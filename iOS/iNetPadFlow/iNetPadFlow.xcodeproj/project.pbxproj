@@ -15,6 +15,7 @@
 		EEC30D002B33682300799017 /* iNetPadFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */; };
 		EEC30D022B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */; };
 		EEC30D0F2B366E3C00799017 /* GameControllerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30D0E2B366E3C00799017 /* GameControllerManager.swift */; };
+		EEC30D112B36765600799017 /* NetworkBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC30D102B36765600799017 /* NetworkBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		EEC30CFF2B33682300799017 /* iNetPadFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowUITests.swift; sourceTree = "<group>"; };
 		EEC30D012B33682300799017 /* iNetPadFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetPadFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EEC30D0E2B366E3C00799017 /* GameControllerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerManager.swift; sourceTree = "<group>"; };
+		EEC30D102B36765600799017 /* NetworkBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBrowser.swift; sourceTree = "<group>"; };
+		EEC30D122B36786200799017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +99,13 @@
 		EEC30CE32B33682200799017 /* iNetPadFlow */ = {
 			isa = PBXGroup;
 			children = (
+				EEC30D122B36786200799017 /* Info.plist */,
 				EEC30CE42B33682200799017 /* iNetPadFlowApp.swift */,
 				EEC30CE62B33682200799017 /* ContentView.swift */,
 				EEC30CE82B33682300799017 /* Assets.xcassets */,
 				EEC30CEA2B33682300799017 /* Preview Content */,
 				EEC30D0E2B366E3C00799017 /* GameControllerManager.swift */,
+				EEC30D102B36765600799017 /* NetworkBrowser.swift */,
 			);
 			path = iNetPadFlow;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC30CE72B33682200799017 /* ContentView.swift in Sources */,
+				EEC30D112B36765600799017 /* NetworkBrowser.swift in Sources */,
 				EEC30D0F2B366E3C00799017 /* GameControllerManager.swift in Sources */,
 				EEC30CE52B33682200799017 /* iNetPadFlowApp.swift in Sources */,
 			);
@@ -431,6 +437,7 @@
 				DEVELOPMENT_TEAM = J737B85W5Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iNetPadFlow/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iNetPadFlow iOS";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -461,6 +468,7 @@
 				DEVELOPMENT_TEAM = J737B85W5Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iNetPadFlow/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "iNetPadFlow iOS";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
